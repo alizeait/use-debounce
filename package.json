@@ -1,0 +1,59 @@
+{
+  "name": "@alizeait/use-debounce",
+  "version": "1.0.0",
+  "description": "React hook to debounce values",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "yarn jest"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "browser": "dist/index.modern.js",
+  "exports": {
+    ".": {
+      "browser": "./dist/index.module.js",
+      "import": "./dist/index.module.js",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alizeait/use-debounce.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "debounce",
+    "react debounce",
+    "use-debounce"
+  ],
+  "author": {
+    "name": "Ali Zeaiter",
+    "email": "rassoali.arz@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alizeait/use-debounce/issues"
+  },
+  "homepage": "https://github.com/alizeait/use-debounce#readme",
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "@testing-library/react": "12.1.3",
+    "@types/react": "^17.0.39",
+    "@types/jest": "^27.4.0",
+    "codecov": "^3.8.3",
+    "jest": "^27.5.1",
+    "microbundle": "^0.14.2",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0 || ^17.0.0"
+  }
+}
